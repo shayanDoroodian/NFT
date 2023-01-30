@@ -1,15 +1,15 @@
-import { PropsWithChildren, ReactNode } from "react";
-import Footer from "../UI/Footer";
-import Navbar from "../UI/Navbar";
+import { PropsWithChildren, ReactNode } from 'react';
+import Footer from '../UI/Footer';
+import Nav from '../UI/Navbar';
 
 function MainLayout({ children }) {
-  return (
-    <>
-      <Navbar />
-      {children}
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			<Nav />
+			{children}
+			<Footer />
+		</>
+	);
 }
 
 export default MainLayout;

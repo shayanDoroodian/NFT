@@ -1,9 +1,4 @@
-
 function HomePage() {
-  return (
-   
-   <>
-   </>
-  );
+	return <></>;
 }
 export default HomePage;
