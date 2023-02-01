@@ -125,7 +125,7 @@ export default function SidebarWithHeader({ children }) {
 			</Drawer>
 			{/* mobilenav */}
 			<MobileNav onOpen={onOpen} />
-			{/* 
+
 			<Card maxW='sm'>
 				<CardBody>
 					<Image
@@ -156,7 +156,7 @@ export default function SidebarWithHeader({ children }) {
 						</Button>
 					</ButtonGroup>
 				</CardFooter>
-			</Card> */}
+			</Card>
 
 			<Box ml={{ base: 0, md: 60 }} p='4'>
 				{children}
